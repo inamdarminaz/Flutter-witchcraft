@@ -1,0 +1,117 @@
+name: witchcraft
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_swiper:
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons:
+
+flutter_icons:
+  image_path: "assets/images/icons/icon.png"
+  android: true
+  ios: false
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/background/bg1.jpg
+    - assets/images/background/bg2.jpg
+    - assets/images/background/bg3.jpg
+    - assets/images/background/bg4.jpg
+    - assets/images/background/bg5.jpg
+    - assets/images/icons/about.png
+    - assets/images/icons/snape.png
+    - assets/images/icons/ww.png
+    - assets/images/background/ptemp.png
+    - assets/images/background/wtemp.png
+    - assets/images/potions/despair.jpeg
+    - assets/images/potions/regeneration.jpeg
+    - assets/images/potions/rudimentary.jpg
+    - assets/images/creatures/Acromantula.jpg
+    - assets/images/creatures/Banshee.jpg
+    - assets/images/creatures/Basilisk.jpg
+    - assets/images/creatures/Boggart.jpg
+    - assets/images/creatures/Dementor.jpg
+    - assets/images/creatures/Grindylow.png
+    - assets/images/creatures/Lethifold.jpg
+    - assets/images/creatures/Obscurus.jpg
+    - assets/images/creatures/vampire.jpeg
+    - assets/images/creatures/werewolf.jpeg
+    - assets/images/wizards/barnabas.jpg
+    - assets/images/wizards/delphini.jpg
+    - assets/images/wizards/ekrizdis.jpeg
+    - assets/images/wizards/grind.jpeg
+    - assets/images/wizards/loxias.jpg
+    - assets/images/wizards/malfoy.png
+    - assets/images/wizards/quirrell.jpeg
+    - assets/images/wizards/salazar.jpg
+    - assets/images/wizards/snape.png
+    - assets/images/wizards/tomriddle.jpeg
+    - assets/images/wizards/umbridge.jpeg
+    - assets/images/wizards/walburga.jpg
+    - assets/images/wizards/yardley.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Harry
+      fonts:
+        - asset: assets/fonts/HARRYP__.TTF
+    - family: Ruthie
+      fonts:
+        - asset: assets/fonts/Ruthie-Regular.ttf
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
